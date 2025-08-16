@@ -24,3 +24,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Force scrollbar on the left */
+.scrollbar-left {
+  direction: rtl; /* scrollbar will be placed on left */
+}
+
+/* Reset child direction so content is normal */
+.scrollbar-left > * {
+  direction: ltr;
+}
+
+/* Optional: make scrollbar thinner and styled */
+.scrollbar-left::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollbar-left::-webkit-scrollbar-thumb {
+  background: #5a5d63; /* Tailwind gray-400 */
+  border-radius: 4px;
+}
+
+.scrollbar-left::-webkit-scrollbar-track {
+  background: transparent;
+}
