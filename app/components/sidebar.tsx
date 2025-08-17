@@ -64,7 +64,7 @@ const handleClick = (id: string) => {
     </div>
      {showTitles && (
         <ul className="mt-4 pl-2 pb-2 pt-2  pr-0 border-r border-gray-300  overflow-y-auto scrollbar-left
-         max-h-[500px] ">
+         lg:max-h-[500px] ">
           {data?.hadiths?.map((hadith: any, i: number) => (
             <li
               key={i}

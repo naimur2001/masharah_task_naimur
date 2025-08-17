@@ -6,7 +6,8 @@ const Contentbar = () => {
  
   return (
     <div className='py-1'>
-         <div>
+         <div className='overflow-y-auto scrollbar-left
+         lg:max-h-[500px] '>
        {
        data.hadiths.map((hadith: any) => {
          return (
