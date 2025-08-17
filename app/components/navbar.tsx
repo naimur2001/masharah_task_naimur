@@ -38,7 +38,7 @@ const Navbar = () => {
         rounded-md lg:text-2xl  md:text-2xl text-md lg:px-1 lg:py-3 md:py-3 py-1 text-blue-600'> <button className='cursor-pointer'  onClick={() => handleModalOpen(2)}>   مسند أبي حنيفة رواية الحصكفي  </button></div>
 
         <div className='p-div3 font-bold border border-sky-200 bg-sky-50
-        rounded-md lg:text-2xl md:text-2xl text-md lg:px-1 lg:py-3 md:py-3 py-1 text-blue-600'> <button className='cursor-pointer text-blue-600'>→</button> </div>
+        rounded-md lg:text-2xl md:text-2xl text-md lg:px-1 lg:py-3 md:py-3 py-1 text-blue-600'> <button className='cursor-pointer text-blue-600  '>→</button> </div>
 {isOpen && (
   <div className="fixed inset-0 flex items-center justify-center bg-gray-400/40 p-2 ">
     <div className="bg-white p-4  shadow-lg w-full max-w-md sm:max-w-lg lg:max-w-xl relative ">
